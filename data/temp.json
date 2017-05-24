@@ -1,0 +1,30 @@
+{
+    "Customers":
+            {
+                "Customer":
+                [
+                    {
+                        "Address":
+                        {
+                            "Street":"10 Idle Lane",
+                            "PostalCode":"xxxyyy",
+                            "City":"Yucksville"
+                        },
+                        "Id":99,
+                        "Age":39,
+                        "Name":"Bob"
+                    },
+                    {
+                        "Address":
+                         {
+                            "Street":"10 Idle Lane",
+                            "PostalCode":"xxxyyy",
+                            "City":"Yucksville"
+                        },
+                        "Id":101,
+                        "Age":39,
+                        "Name":"Bill"
+                    }
+                ]
+            }
+}
