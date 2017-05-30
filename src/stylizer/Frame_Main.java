@@ -7,12 +7,9 @@ package stylizer;
 
 import javax.xml.parsers.DocumentBuilder;
 import javax.xml.parsers.DocumentBuilderFactory;
-import javax.xml.parsers.FactoryConfigurationError;
 import javax.xml.parsers.ParserConfigurationException;
 import org.xml.sax.SAXException;
-import org.xml.sax.SAXParseException;
 import org.w3c.dom.Document;
-import org.w3c.dom.DOMException;
 
 // For write operation
 import javax.xml.transform.Transformer;
@@ -24,8 +21,6 @@ import javax.xml.transform.stream.StreamSource;
 import javax.xml.transform.stream.StreamResult;
 import java.io.*;
 
-import java.io.BufferedWriter;
-import java.lang.Object;
 import org.codehaus.jackson.map.ObjectMapper;
 
 /**
